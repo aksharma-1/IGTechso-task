@@ -1,0 +1,205 @@
+#navbar {
+  background-color: #ffff !important;
+  background-image: linear-gradient(to right, #e0f5fa, #fffde6);
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.nav-item {
+  margin: 0px 10px;
+}
+
+#header-section {
+  position: relative;
+  background-color: #fff !important; /* plain white base */
+  z-index: 1;
+  overflow: hidden;
+  padding: 200px 40px 40px 40px;
+}
+
+#header-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%; /* controls gradient size */
+  height: 100%;
+  background-image: linear-gradient(to right, #e0f5fa, #fffde6);
+  border-bottom-right-radius: 100px;
+  z-index: -1;
+}
+
+#header-1st-div {
+  color: #02073e;
+}
+#header-1st-div input:focus {
+  outline: none;
+}
+#header-2nd-div {
+  position: relative;
+  width: 400px;
+  height: 550px;
+  border: 2px solid #ef9e48;
+  padding: 10px;
+}
+
+#header-2nd-div #first-img {
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  width: 450px;
+  height: 550px;
+  object-fit: cover;
+  object-position: 70%;
+}
+#header-2nd-div #sec-img {
+  z-index: -1;
+  position: absolute;
+  top: -130px;
+  right: 0px;
+  width: 300px;
+}
+
+#header-2nd-div #play-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 2;
+  background-color: #ffffff7b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+}
+
+#niaMatos {
+  border-bottom: thick double #ef9e48;
+}
+
+.quality-card .play-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  z-index: 2;
+  background-color: #ffffff7b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+}
+.org-clr {
+  color: #ef9e48;
+}
+.org-bg {
+  background-color: #fae3cbbb;
+}
+
+.text-clr {
+  color: #02073e;
+}
+
+.divider {
+  border-bottom: 2px solid rgb(229, 229, 229);
+}
+#learningToday {
+  padding: 130px 0px;
+}
+
+#scrollButton {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px;
+  background-color: #dcdcdcb2;
+  color: #ffff;
+  font-size: 30px;
+}
+#frequent-quetions {
+  padding: 0px 350px;
+}
+
+#functions {
+  background-image: linear-gradient(to bottom, #ebf9ff, #f6f6ff);
+  padding: 40px 150px;
+  padding-bottom: 150px;
+}
+
+#functions .numbers {
+  background-color: #ffff;
+  display: flex;
+  padding: 19px;
+  align-items: center;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 30%;
+}
+
+#pricing-plan {
+  padding: 0px 350px;
+  padding-bottom: 40px;
+}
+#recommanded-btn {
+  background-color: #ef9e48;
+  font-size: 10px;
+  color: #ffff;
+}
+
+.plus-btn {
+  color: #ffff;
+  background-color: #3fdbb1;
+  font-size: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.check-btn {
+  color: #ffff;
+  background-color: #3fdbb1;
+  font-size: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.play-btn {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  padding: 25px;
+  width: 80px;
+  border-radius: 50%;
+}
+.classVideo-btn{
+    border: 0px;
+    background-color: #3fdbb1;
+    color: #ffff;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+#courses{
+     padding: 30px 150px;
+}
+
+#footer {
+  padding: 30px 250px;
+}
+
+#footer button {
+  border: 0px;
+  background-color: transparent;
+  color: rgb(103, 103, 103);
+}

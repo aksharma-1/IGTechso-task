@@ -66,6 +66,8 @@ function Header() {
         </div>
       </div>
       <div id="header-2nd-div" className="px-3">
+        <div id="org-border-box">
+        </div>
         <span id="play-btn">
           <FaPlay color="white" size={45}/>
         </span>

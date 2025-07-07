@@ -12,12 +12,14 @@ import FrequentQuetions from "./components/FrequentQuetions";
 import PricePlan from "./components/PricePlan";
 import Functions from "./components/Functions";
 import Courses from "./components/Courses";
+import CoreFeatures from "./components/CoreFeatures";
 
 function App() {
   const scrollToNextSection = () => {
     const sections = [
       "header-section",
       "quality-feature",
+      "core-features",
       "courses",
       "functions",
       "pricing-plan",
@@ -50,6 +52,7 @@ function App() {
       <Navbar />
       <Header />
       <QualityFeature />
+      <CoreFeatures />
       <Courses />
       <Functions />
       <PricePlan />

@@ -6,7 +6,7 @@ function Navbar() {
       <div className="container-fluid d-flex justify-content-center">
         <div>
           <a className="navbar-brand" href="#">
-            <img src="./Images/logo.png" width={90} />
+            <img src="./Images/logo.png" width={140} />
           </a>
         </div>
         <button
